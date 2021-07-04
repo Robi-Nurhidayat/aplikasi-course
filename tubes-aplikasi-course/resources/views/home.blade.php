@@ -21,22 +21,64 @@
     </div>
 </div> --}}
 
-<div class="jumbotron">
+<div class="jumbotron bg-light mx-5 my-5">
     <div class="row">
         <div class="col-md-5">
-            <h1 class="display-4">Learn Programming Smart For Your Future</h1>
-            <p class="lead">Belajar cerdas seputar programming bersama LearnEnt dan dapatkan sertifikat untuk membangun masa depan anda yang lebih terarah</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>   
+            <h1>Learn Programming</h1>
+            <h1 class="mb-4">Smart For Your Future</h1>
+
+            <p class="lead mb-4">Belajar cerdas seputar programming bersama LearnEnt dan dapatkan sertifikat untuk membangun masa depan anda yang lebih terarah</p>
+
+            <a class="btn btn-primary btn-lg" href="#" role="button">Get started</a>   
+            <a class="btn btn-secondary btn-lg ml-5" href="#" role="button">Course List</a>
         </div>
 
-        <div class="col-md-6 ml-4 bg-primary">
-            <p>test</p>
+        <div class="col-md-6 ml-4 ">
+            <img src="{{ URL('images/hero.jpg') }}" alt="">
         </div>
     </div>
 
 </div>
 
+<div class="jumbotron mx-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-2 bg-dark text-white font-card1" style="width: 20rem;">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Save More <br>
+                    With Good Plan </h5>
+                  <p class="card-text">Kelas Premium mempunyai banyak benefits. Gabunglah Kelas Premium dengan metode belajar menggunakan studi kasus dan dapatkan sertifikat.</p>
+                  <p>Untuk Awal yang baru coba memilih kelas gratis terlebih dahulu. Jika suka anda bisa upgrade ke kelas premium kapan saja.</p>
+                </div>
+                <img src="{{ URL('images/card1.jpg') }}" class="card-img-top px-3 pb-3" alt="...">
+              </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card my-5 bg-secondary text-white" style="width: 20rem; height:90%;">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Free <br>What You’ll Get?</h5>
+                  <p> Kesempatan belajar secara gratis</p>
+                  <p>  Akses selama nya</p>
+                  <p>  Ilmu yang bermanfaat</p>
+                  <div class="text-center d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary">View Course List</a>
+                  </div>
+                  
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>    
+</div>
 
 @endsection
