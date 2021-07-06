@@ -23,6 +23,11 @@
     justify-content: space-around;
 }
 
+.our-team{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
@@ -42,5 +47,10 @@
         margin-left: 25px;
     }
     
+
+    .our-team{
+        display: block;
+        margin-left: 25px;
+    }
     
 }
