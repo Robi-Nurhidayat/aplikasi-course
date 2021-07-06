@@ -37,8 +37,18 @@
 
                     </ul>
 
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Course</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        
+                    </div>
+
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
